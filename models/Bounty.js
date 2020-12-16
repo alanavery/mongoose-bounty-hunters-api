@@ -30,4 +30,4 @@ const bountySchema = new mongoose.Schema({
   lastSeen: String
 });
 
-module.exports = mongoose.model('bounties', bountySchema);
+module.exports = mongoose.model('Bounty', bountySchema);
